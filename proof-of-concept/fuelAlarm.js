@@ -18,36 +18,36 @@ async function sendMessage() {
     template: {
       name: 'alerta_combustible',
       language: {
-        code: 'es',
+        code: 'es_ES',
       },
-    },
-    components: [
-      {
-        "type": "body",
-        "parameters": [
-          {
+      components: [
+        {
+          "type": "body",
+          "parameters": [
+            {
             "type": "text",
             "text": "CRITICAL"
-          },
-          {
-            "type": "text",
-            "text": "Combustible Muy Bajo"
-          },
-          {
-            "type": "text",
-            "text": "CUN TR 45HG5"
-          },
-          {
-            "type": "text",
-            "text": "Johan Mendoza"
-          },
-          {
-            "type": "text",
-            "text": "14.93"
-          }
-        ]
-      }
-    ]
+            },
+            {
+              "type": "text",
+              "text": "Combustible Muy Bajo"
+            },
+            {
+              "type": "text",
+              "text": "CUN TR 45HG5"
+            },
+            {
+              "type": "text",
+              "text": "José Mendoza"
+            },
+            {
+              "type": "text",
+              "text": "14.93"
+            }
+          ]
+        }
+      ]
+    },
   };
 
   const options = {
